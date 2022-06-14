@@ -1,13 +1,14 @@
 
+
 /* slider */
 
 #carouselExampleIndicators .carousel-inner, #carouselExampleIndicators  .carousel-item {
-    height: 100vh;
+    height: 60vh;
     
 }
 
 #carouselExampleIndicators .carousel-caption {
-    top:45%;
+    top:35%;
 }
 #carouselExampleIndicators .carousel-caption h2{
     font-size: 48px;
