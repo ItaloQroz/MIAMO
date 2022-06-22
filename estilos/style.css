@@ -118,3 +118,78 @@ img{
     grid-row: 2;
 
 }
+
+#visao-conteudo {
+ background-color: blueviolet;
+    text-align: center;
+    width: 100%; 
+   
+    margin: auto;
+    padding: auto;
+    background-color: aquamarine;
+    height: 850px;
+}
+
+#visao-conteudo p {
+    margin: auto;
+    padding: auto;
+}
+
+
+#visao-img img{
+    float: left;
+    width: 35%;
+    margin: 100px;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
+#visao-paragrafo {
+    float: left;
+    width: 50%;
+    margin: 50px;
+    margin-top: 50px;
+    margin-right: 0px;
+    text-align: start;
+
+
+}
+
+#sbr-empresa {
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    padding-top: 50px;
+}
+
+#sbr-empresa p {
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+
+#mapa-conteudo{
+    background-color: brown;
+    height: 650px;
+}
+
+#google-maps{
+    float: right;
+    width: 35%;
+    margin: 100px;
+    margin-right: 0px;
+    margin-top: 100px;
+}
+
+#localizacao-paragrafo {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    margin: 50px;
+    margin-top:100px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+
