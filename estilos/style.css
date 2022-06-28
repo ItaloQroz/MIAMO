@@ -77,47 +77,65 @@ img{
 
 /* BabyDolss */
 
+
+#grid-container{
+    display: grid;
+    grid-gap: .5em;
+    grid-template-areas: 
+        "fotoum fotodois fototreis"
+        "fotoum fotoquatro fotocinco";
+    grid-template-columns: 1fr 20% 20%;
+    
+}
+
+#grid-container .grid-item {
+    border: 3px solid rgba(0, 0, 0, 0.192);
+    border-radius: 0.5em;
+    margin: 20px 20px 20px 20px;
+    width: 85%;
+    
+}
+
+#grid-container .grid-item:first-child {
+    grid-area: fotoum;
+    margin-left: 100px;
+        
+}
+#babydolls p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+ #babydolls .grid-item p {
+    font-size: 20px;
+}
+
+
+.grid-item{
+    background-color:rgba(128, 128, 128, 0.527);
+}
+
+
+
 #babydolls{
     display:block;
     text-align: center;
-    width: 80%;
+    width: 2400px;
     margin: auto;
     padding: auto;
     background-color: aquamarine;
+    height: 3100px;
+    
 }
 
 #babydolls img {
  width: 100%;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 10px;
-}
 
-.grid-item:nth-child(1){
-    grid-row: 1 / 3;
-}
 
-.grid-item{
-    display: grid;
-}
-.grid-item img{
-    grid-column: 1;
-    grid-row: 1/3;
-}
-.grid-item p{ 
-    background-color: grey;
-    padding: 10px;
-    color: black;
-    grid-column: 1;
-    grid-row: 2;
 
-}
 
 #visao-conteudo {
  background-color: blueviolet;
