@@ -92,8 +92,7 @@ img{
     border: 3px solid rgba(0, 0, 0, 0.192);
     border-radius: 0.5em;
     margin: 20px 20px 20px 20px;
-    width: 85%;
-    
+    width: 85%;    
 }
 
 #grid-container .grid-item:first-child {
@@ -104,7 +103,7 @@ img{
 #babydolls p {
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 25px;
+    font-size: 10px;
 }
 
  #babydolls .grid-item p {
@@ -121,11 +120,11 @@ img{
 #babydolls{
     display:block;
     text-align: center;
-    width: 2400px;
+    width: 1600px;
     margin: auto;
     padding: auto;
     background-color: aquamarine;
-    height: 3100px;
+    height: 3300px;
     
 }
 
