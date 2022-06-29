@@ -210,3 +210,104 @@ img{
 }
 
 
+#roupanoturna-conteudo{
+    height: 700px;
+    width: 550px;
+    background-color: tomato;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+
+#roupanoturna-conteudo img{
+    margin: auto;
+    padding: auto; 
+}
+
+#calcinhas{
+    height: 700px;
+    width: 550px;
+    background-color: tomato;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#calcinhas img{
+    margin: auto;
+    padding: auto;
+}
+
+#modeladores{
+    height: 700px;
+    width: 550px;
+    background-color: tomato;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#modeladores img{
+    margin: auto;
+    padding: auto;
+}
+
+#lingieries{
+    height: 700px;
+    width: 550px;
+    background-color: tomato;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#lingieries img{
+    margin: auto;
+    padding: auto;
+}
+
+#camisolas{
+    height: 700px;
+    width: 550px;
+    background-color: tomato;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#camisolas img{
+    margin: auto;
+    padding: auto;
+}
+
+#sutias{
+    height: 700px;
+    width: 550px;
+    background-color: tomato;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#sutias img{
+    margin: auto;
+    padding: auto;
+}
+
+#linha1 {
+    margin-left: 60px;  
+}
+
+#linha2 {
+    margin-left: 60px;  
+}
+
+/*footer-container*/
+.footer-container {
+    text-align: center;
+    height: 100px;
+    line-height: 150px;
+    background-color: #e8e9ea;
+    color: #333;
+}
