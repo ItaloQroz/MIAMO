@@ -549,9 +549,7 @@ textarea {
       outline-width: 0;
   }
 
-  .opacidade{
+  .opacidade, #email, #telefone{
       opacity: .5;
   }
-  #email, #telefone{
-      opacity: .5;
-  }
+ 
