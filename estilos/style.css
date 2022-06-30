@@ -1,10 +1,12 @@
 
-
+body {
+    background-color: white;
+}
 /* slider */
 
 img{
     max-width: 100%;
-    display: block;
+    /* display: block; */
 }
 
 #carouselExampleIndicators .carousel-inner, #carouselExampleIndicators  .carousel-item {
@@ -112,7 +114,7 @@ img{
 
 
 .grid-item{
-    background-color:rgba(128, 128, 128, 0.527);
+    background-color:rgba(255, 255, 255, 0.527);
 }
 
 
@@ -123,7 +125,7 @@ img{
     width: 1600px;
     margin: auto;
     padding: auto;
-    background-color: aquamarine;
+    background-color: rgb(201, 201, 201);
     height: 2500px;
     
 }
@@ -137,14 +139,14 @@ img{
 
 
 #visao-conteudo {
- background-color: blueviolet;
+ background-color: rgba(24, 23, 23, 0.863);
     text-align: center;
     width: 100%; 
    
     margin: auto;
     padding: auto;
-    background-color: aquamarine;
     height: 850px;
+    color: white;
 }
 
 #visao-conteudo p {
@@ -186,7 +188,7 @@ img{
 }
 
 #mapa-conteudo{
-    background-color: brown;
+    background-color: rgb(231, 230, 230);
     height: 650px;
 }
 
@@ -210,7 +212,6 @@ img{
 }
 
 
-<<<<<<< HEAD
 #roupanoturna-conteudo{
     height: 700px;
     width: 550px;
@@ -312,7 +313,6 @@ img{
     background-color: #e8e9ea;
     color: #333;
 }
-=======
 
 
 
@@ -505,7 +505,7 @@ img{
 }
 
 .body{
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
     height: 100%;
     width: 100%;
     background-attachment: fixed;
@@ -516,9 +516,10 @@ img{
     font-family: 'Lato', sans-serif;
 }
 .body .layer{
+    background-image: url(../img/16.jpg);
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgb(12, 19, 39);
     /*  To keep login form in center of the page    */
     display: -webkit-box;
     display: -webkit-flex;
@@ -540,16 +541,16 @@ img{
     max-width: 800px;
     height: 800px;
     text-align: center;
-    background: rgb(255, 255, 255);
-    padding: 100px 100px;
-    border-radius: 2px;
+    background: rgba(4, 214, 203, 0.925);
+    padding: 50px 100px;
+    border-radius: 20px;
 }
 .form .heading{
     color: #000;
     font-size: 25px;
     margin: 0px  0px;
-    height: 40px;
-    line-height: 30px;
+    height: 10px;
+    line-height: 10px;
     text-align: center;
 }
 .form .signup-form{
@@ -557,17 +558,17 @@ img{
 }
 .form .input{
     width: 100%;
-    padding: 14px;
+    padding: 10px;
     background: #f8f8f8;
     border: 1px solid rgba(0, 0, 0, 0.075);
     margin-bottom: 25px;
     color: black !important;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: start;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
-    font-size: 17px;
     letter-spacing: 2px;
 }
 .form .input:focus{
@@ -629,7 +630,7 @@ textarea {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.014);
+    /* background: none repeat scroll 0 0 rgba(0, 0, 0, 0); */
     border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
     border-image: none;
     border-radius: 6px 6px 6px 6px;
@@ -656,4 +657,32 @@ textarea {
       opacity: .5;
   }
  
->>>>>>> 41eba3b8217ca0e5145838aab16b9474ecf39301
+
+
+#fixar {
+    width: 100%;
+    display: flex;
+    justify-content:end;
+    height: 800px;
+    background-color: tomato;
+    background-image: url(../img/planodefundo.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    
+
+}
+
+#conteudo-fixo {
+    background-color: rgb(255, 2, 2);
+    justify-content: center;
+    text-align: center;
+    justify-content:end;
+    padding: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#conteudo-fixo img {
+
+    justify-content: center;
+}
