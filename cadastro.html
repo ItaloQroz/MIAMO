@@ -50,38 +50,52 @@
                     <div class="heading">Fale Conosco</div>
                     <div class="input-box">
                         <form action="" method="post">
-                            <input  id="email" type="text" class="input" placeholder="Seu E-mail" required>
-                            <input  id="telefone" type="text" class="input" placeholder="Seu Telefone" required>
-                            <textarea class="opacidade" placeholder="Conte O que deseja" name="contato" id="contato" cols="72" rows="10"></textarea>
-                            <input type="submit" class="submit" value="login">
+                            <input  id="nome" type="text" class="input opacidade" placeholder="Seu Nome" required>
+                            <input  id="email" type="email" class="input opacidade" placeholder="Seu E-mail" required>
+                            <input  id="telefone" type="text" class="input opacidade phone" placeholder="Seu Telefone" required>
+                            <input  id="assunto" type="text" class="input opacidade " placeholder="Assunto" required>
+                            <textarea class="opacidade" placeholder="Conte O que deseja" name="contato" id="contato" cols="72" rows="10" required></textarea>
+                            <input type="submit" class="submit" value="Enviar">
                         </form>
                     </div>
-                    <br>
-                    Don't have account? <button type="button" id="showCreateBtn" class="togglebtn" onclick="show_create()">Create Account</button> Now. 
-                </div>
+                    <div id="btn-atacado"> 
+                      <p>Se Deseja Enviar Pedido Atacado
+                    <button type="button" id="showCreateBtn" class="togglebtn" onclick="show_create()">Clique Aqui  </button>
+                  </p>
+                  </div> 
+                  </div>
                 <div class="signup-form">
-                    <div class="heading">Create your <b>Account</b></div>
-                    <div class="input-box">
-                        <form action="" method="post">
-                            <input type="text" class="input" placeholder="New Email address..." required>
-                            <input type="password" class="input" placeholder="New password..." required>
-                            <input type="password" class="input" placeholder="Repeat New password..." required>
-                            <input type="submit" class="submit" value="Create account">
+                  <div class="heading">Faça Seu Pedido</div>
+                  <div class="input-box">
+                      <form action="" method="post">
+                          <input  id="nome" type="text" class="input opacidade" placeholder="Seu Nome" required>
+                          <input  id="email" type="email" class="input opacidade" placeholder="Seu E-mail" required>
+                          <input  id="telefone" type="text" class="input opacidade phone" placeholder="Seu Telefone" required>
+                          <input  id="assunto" type="text" class="input opacidade " placeholder="Assunto" required>
+                          <textarea class="opacidade" placeholder="Faça Seu Pedido" name="contato" id="contato" cols="72" rows="10" required></textarea>
+                          <input type="submit" class="submit" value="Enviar">
+                      </form>
+                  </div>
                         </form>
+                        <div id="btn-atacado"> 
+                          <p>Se Deseja Enviar Pedido Atacado
+                            <button type="button" id="showCreateBtn" class="togglebtn" onclick="show_login()">Clique Aqui  </button>
+                      </p>
+                      </div> 
+                        
                     </div>
-                    <br>
-                    Already an member ? <button type="button" id="showCreateBtn" class="togglebtn" onclick="show_login()">Login</button> Now.
+                  
                 </div>
             </div>
         </div>
     </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
 
 
       </form>
 
 
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="js/Script.js"></script>
 
 </body>
