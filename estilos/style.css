@@ -324,11 +324,19 @@ img{
 /* redes sociais */
 
 .aside {
-    margin-top: 600px;
-    margin-left: 50px;
+    margin-top: 700px;
+    margin-left: 20px;
     color: #1ebbf0;
 }
 
+.aside a{
+    float: left;
+}
+
+#vertical{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
