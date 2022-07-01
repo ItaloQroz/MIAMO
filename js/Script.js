@@ -16,7 +16,7 @@ $(document).ready(function(){
     $('.date_time').mask('00/00/0000 00:00:00');
     $('.cep').mask('00000-000');
     $('.phone').mask('(00) 00000-0000');
-    $('.phone_with_ddd').mask('(00) 0000-0000');
+    $('.telefone').mask('(00) 00000-0000');
     $('.phone_us').mask('(000) 000-0000');
     $('.mixed').mask('AAA 000-S0S');
     $('.cpf').mask('000.000.000-00', {reverse: false});
@@ -44,5 +44,15 @@ $(document).ready(function(){
         }
       });
     $('.selectonfocus').mask("00/00/0000", {selectOnFocus: true});
+    
+
+    function validateEmail(email) {
+      var re = /\S+@\S+\.\S+/;
+      return re.test(email);
+    }
+
+
+
+
   });
   
