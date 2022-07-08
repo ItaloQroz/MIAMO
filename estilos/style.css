@@ -767,7 +767,6 @@ textarea {
 
 
 #fixar {
-   
     display: flex;
     justify-content: flex-end;
     height: 100%;
@@ -808,9 +807,9 @@ textarea {
 
 
 #sessao-fixa {
-    background-image: url(../img/banner.jpg);
-    background-repeat: repeat;
+    background-image: url(../img/fixo.jpg);
     background-attachment: fixed;
+    /* background-size: cover; */
     
     
 }
