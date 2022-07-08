@@ -16,22 +16,23 @@ img{
 
 
 #carouselExampleIndicators .carousel-caption {
-    top:35%;
+    top:55%;
 }
 
 .carousel-caption {
 	z-index: 10;
 }
-.carousel-caption h1 {
+.carousel-caption h2 {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-weight: 300;
-    color: black;
+    color: rgb(0, 0, 0);
+    border: #000;
 }
 
 .carousel-caption p {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-weight: 300;
-    color: black;
+    font-size: 20px;
 }
 
 
@@ -40,10 +41,6 @@ img{
 
 }
 
-.navbar-nav .nav-link  {
-    /* padding: ; */
-    
-}
 
 .nav-item {
     margin: auto;
@@ -104,7 +101,7 @@ img{
     border-radius: 0.5em;
     margin: 20px 20px 20px 20px;
     width: 80%;
-    box-shadow: #000 5px 5px 10px 5px;
+    box-shadow: rgba(39, 39, 39, 0.925) 10px 13px 12px 6px;
     border-radius: 15px;
 }
 
@@ -148,7 +145,7 @@ img{
     background-color: rgba(255, 255, 255, 0.904);
     height: 100%;
     align-self: center;
-    box-shadow: #000 0px 0px 8px -1px;
+    box-shadow: #000 0px 0px 5px -1px;
 }
 
 #lancamentos h1 {
@@ -993,3 +990,12 @@ textarea {
     font-weight: bold;
 }
 
+.texto {
+        color: rgb(0, 0, 0);
+        text-shadow: 
+                 -1px -1px 0px rgba(255, 255, 255, 0.863), 
+                 -1px 1px 0px rgba(255, 253, 253, 0.801),                    
+                  1px -1px 0px rgba(255, 255, 255, 0.884),                  
+                  1px 0px 0px rgba(255, 255, 255, 0.849);
+  
+}
