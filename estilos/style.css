@@ -125,8 +125,8 @@ img{
 }
 
 #lancamentos h1{
-    text-shadow: #000 5px 5px 10px;
-    color: white;
+    text-shadow: rgb(0, 0, 0) 5px 5px 10px;
+    color: rgb(39, 38, 38);
 }
 
 
@@ -917,7 +917,27 @@ textarea {
     z-index: 1;
     color: white;
     border-radius: 5px;
+    
   }
+
+.btn-15 a, .btn-14 a{
+      text-decoration: none;
+  }
+
+  .btn-15 a{
+      color: rgb(255, 255, 255);
+  }
+
+  .btn-15 a:hover{
+      text-decoration: none;
+      color: black;
+  }
+
+  
+
+
+
+
   .btn-15:after {
     position: absolute;
     content: "";
@@ -932,9 +952,11 @@ textarea {
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
     transition: all 0.3s ease;
+    
   }
   .btn-15:hover {
     color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
   }
   .btn-15:hover:after {
     left: 0;
@@ -976,6 +998,7 @@ textarea {
   }
   .btn-14:hover {
     color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 15px white;
   }
   .btn-14:hover:after {
     left: 0;
@@ -984,6 +1007,15 @@ textarea {
   .btn-14:active {
     top: 2px;
   }
+
+  .btn-14 a{
+    color: rgb(0, 0, 0);
+}
+
+.btn-14 a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
   
   .image_overlay .btn-14{
     margin-top:  300px;
