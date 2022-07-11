@@ -49,6 +49,10 @@ img{
     font-size: 20px;
 }
 
+.nav-item a {
+    text-decoration: none;
+}
+
 .navbar {
     background-color: rgba(240, 240, 240, 0.753);
     
