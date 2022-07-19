@@ -429,6 +429,11 @@ margin: auto;
     flex-direction: column;
 }
 
+.col input {
+    background-color: #04fbfb;
+    border-color: #8BC3A3;
+}
+
 
 
 
