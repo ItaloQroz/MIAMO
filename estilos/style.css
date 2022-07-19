@@ -432,6 +432,7 @@ margin: auto;
 .col input {
     background-color: #04fbfb;
     border-color: #8BC3A3;
+    border-radius: 10px;
 }
 
 
